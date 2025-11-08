@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node api/server.js",
+    "stop": "pkill -f 'node api/server.js'"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
